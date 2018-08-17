@@ -1,0 +1,6 @@
+{
+  "project_name": "Cool Jekyll Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "jekyll_version": "3.8.3"
+}

@@ -1,0 +1,24 @@
+title: {{ cookiecutter.project_name }}
+description: >-
+  {{ cookiecutter.project_short_description }}
+meta_image: default.png
+baseurl: ""
+url: "https://docs.sentry.io"
+twitter_username: getsentry
+home_url: https://sentry.io
+
+# Build settings
+port: 9000
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-assets
+  - jekyll-extlinks
+  - liquid-md5
+
+permalink: /:slug/
+
+timezone: America/Los_Angeles
+
+source: src
